@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * before_main - entry point
- *
- * Return: Always 0
+ * pre_main - function to execute before main
+ * Return: none (void)
  */
-void __attribute__ ((constructor)) before_main()
+
+void __attribute__ ((constructor)) pre_main()
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
